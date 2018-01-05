@@ -1,0 +1,44 @@
+<xs:schema xmlns:ns="http://services.samples/xsd" attributeFormDefault="qualified"
+           elementFormDefault="qualified" targetNamespace="http://services.samples/xsd"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="getQuote">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="symbol" type="xs:NMTOKEN"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getQuoteResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="change" type="xs:double"/>
+                <xs:element name="earnings" type="xs:double"/>
+                <xs:element name="high" type="xs:double"/>
+                <xs:element name="last" type="xs:double"/>
+                <xs:element name="lastTradeTimestamp" nillable="true" type="xs:string"/>
+                <xs:element name="low" type="xs:double"/>
+                <xs:element name="marketCap" type="xs:double"/>
+                <xs:element name="name" nillable="true" type="xs:string"/>
+                <xs:element name="percentageChange" type="xs:double"/>
+                <xs:element name="prevClose" type="xs:double"/>
+                <xs:element name="symbol" nillable="true" type="xs:string"/>
+
+                <xs:element name="volume" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="placeOrder">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="price" type="xs:double"/>
+                <xs:element name="quantity" type="xs:int"/>
+                <xs:element name="symbol" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

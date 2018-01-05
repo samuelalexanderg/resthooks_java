@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<authors>
+    <author id="ID1">
+        <firstName>Isaac</firstName>
+        <middleName/>
+        <lastName>Asimov</lastName>
+        <address>
+            <street>unknown</street>
+            <city>New York</city>
+            <state>NY</state>
+            <country>USA</country>
+        </address>
+        <books>
+            <book>
+                <title>I, Robot</title>
+                <year>2008</year>
+                <isbn>055338256X</isbn>
+            </book>
+            <book>
+                <title>The Robots of Dawn</title>
+                <year>2008</year>
+                <isbn>0553299492</isbn>
+            </book>
+        </books>
+    </author>
+    <author id="ID2">
+        <firstName>Arthur</firstName>
+        <middleName>C</middleName>
+        <lastName>Clarke</lastName>
+        <address>
+            <street>unknown</street>
+            <city>Colombo</city>
+            <state>NA</state>
+            <country>SriLanka</country>
+        </address>
+        <books>
+            <book>
+                <title>2001: A Space Odyssey</title>
+                <year>1968</year>
+                <isbn>0451457994</isbn>
+            </book>
+        </books>
+    </author>
+    <author id="ID3">
+        <firstName>Dan</firstName>
+        <middleName/>
+        <lastName>Brown</lastName>
+        <address>
+            <street>unknown</street>
+            <city>Exeter</city>
+            <state>NH</state>
+            <country>USA</country>
+        </address>
+        <books>
+            <book>
+                <title>The Da Vinci Code</title>
+                <year>2003</year>
+                <isbn>0385504209</isbn>
+            </book>
+        </books>
+    </author>
+	
+    <author id="ID7">
+	  <firstName>Sir Winston</firstName>
+	  <lastName>Churchill</lastName>
+	</author>
+	<author id="ID8">
+	  <firstName>John</firstName>
+	  <lastName>Howard</lastName>
+	</author>
+	<author id="ID9">
+	  <firstName>William</firstName>
+	  <lastName>Clinton</lastName>
+	</author>
+	<author id="ID10">
+	  <firstName>Purple</firstName>
+	  <lastName>Hearts</lastName>
+	</author>
+	<author id="ID11">
+	  <firstName>Helen</firstName>
+	  <lastName>Keler</lastName>
+	</author>	
+	<author id="ID1000">
+	  <firstName>Author</firstName>
+	  <lastName>toBeDeleted</lastName>
+	</author>	
+</authors>

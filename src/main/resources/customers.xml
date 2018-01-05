@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+    <customer id="ID1">
+        <companyName>KnN</companyName>
+        <contactName>Gerald</contactName>
+        <phone>123-456-789</phone>
+        <address>
+            <street>unknown</street>
+            <city>Chennai</city>
+            <state>TN</state>
+            <country>IN</country>
+        </address>
+        <orders>
+            <order id="OR1">
+                <customerId>ID1</customerId>
+                <orderDate>2008</orderDate>
+                <shipInfo>
+                    <shipVia>Chennai</shipVia>
+                    <shipName>CentraSite</shipName>
+                    <shipAddress>
+                        <street>unknown</street>
+                        <city>Chennai</city>
+                        <state>TN</state>
+                        <country>IN</country>
+                    </shipAddress>
+                    <shippedDate>24-10-2013</shippedDate>
+                </shipInfo>
+            </order>
+            <order>
+                <customerId>ID1</customerId>
+                <orderDate>2010</orderDate>
+                <shipInfo>
+                    <shipVia>Chennai</shipVia>
+                    <shipName>Mediator</shipName>
+                    <shipAddress>
+                        <street>unknown</street>
+                        <city>Chennai</city>
+                        <state>TN</state>
+                        <country>IN</country>
+                    </shipAddress>
+                    <shippedDate>24-10-2013</shippedDate>
+                </shipInfo>
+            </order>
+        </orders>
+    </customer>
+</customers>
